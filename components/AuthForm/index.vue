@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-2/4">
     <button @click="handleFormType('signIn')">Sign In</button>
     <button @click="handleFormType('signUp')">Sign Up</button>
     <SignInForm v-if="formType === 'signIn'" />
