@@ -7,13 +7,21 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "test:unit": "vitest run --environment jsdom"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.8.0",
+    "@vue/test-utils": "^2.4.1",
     "nuxt": "^3.8.0",
     "vue": "^3.3.6",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "jsdom": "^22.1.0",
+    "vitest": "^0.34.6"
   }
 }
