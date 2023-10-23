@@ -36,6 +36,7 @@
   "dependencies": {
     "@vitejs/plugin-vue": "^4.4.0",
     "jsdom": "^22.1.0",
+    "vee-validate": "^4.11.8",
     "vitest": "^0.34.6"
   }
 }
