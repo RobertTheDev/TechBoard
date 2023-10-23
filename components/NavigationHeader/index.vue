@@ -7,6 +7,7 @@
       <nav class="flex gap-4">
         <NuxtLink
           v-for="navigationLink in navigationLinks"
+          :key="navigationLink.url"
           :to="navigationLink.url"
           >{{ navigationLink.name }}</NuxtLink
         >
@@ -18,16 +19,16 @@
 <script setup lang="ts">
 const navigationLinks = [
   {
-    name: "Home",
-    url: "/",
+    name: 'Home',
+    url: '/',
   },
   {
-    name: "About",
-    url: "/about",
+    name: 'About',
+    url: '/about',
   },
   {
-    name: "Profile",
-    url: "/profile",
+    name: 'Profile',
+    url: '/profile',
   },
-];
+]
 </script>

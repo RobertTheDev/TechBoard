@@ -6,6 +6,6 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: "About",
-});
+  title: 'About',
+})
 </script>

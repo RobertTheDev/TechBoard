@@ -1,3 +1,3 @@
-const companyName = "TechBoard";
+const companyName = 'TechBoard'
 
-export default companyName;
+export default companyName

@@ -6,6 +6,6 @@
 
 <script setup lang="ts">
 useHead({
-  title: "Online Jobs Marketplace",
-});
+  title: 'Online Jobs Marketplace',
+})
 </script>

@@ -6,6 +6,6 @@
 
 <script setup lang="ts">
 useHead({
-  title: "Profile",
-});
+  title: 'Profile',
+})
 </script>
